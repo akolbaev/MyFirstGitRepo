@@ -8,10 +8,10 @@ import os
 from numbers import Number
 import xlrd
 
-#url ='https://github.com/akolbaev/excel/blob/master/Purchase_Order_History.xlsx?raw=true'
+#url ='https://github.com/akolbaev/excel/blob/master/a.xlsx?raw=true'
 #df = pd.read_excel(url, sheet_name='Sheet1')
 
-#df = pd.read_excel(('https://github.com/akolbaev/excel/blob/master/Purchase_Order_History.xlsx'), sheetname='Sheet 1')
+#df = pd.read_excel(('https://github.com/akolbaev/excel/blob/master/a.xlsx'), sheetname='Sheet 1')
 
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
