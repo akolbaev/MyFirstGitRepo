@@ -18,8 +18,8 @@ def as_dollar(v):
     else:
         raise TypeError("Numeric type required")
 
-#url ='https://github.com/akolbaev/excel/blob/master/Purchase_Order_History.xlsx?raw=true'
-df = pd.read_excel('Purchase_Order_History.xlsx', sheetname='Sheet1')
+
+df = pd.read_excel('a.xlsx', sheetname='Sheet1')
 
 app = dash.Dash(__name__)
 server = app.server
